@@ -389,9 +389,10 @@ footer{
  header{
   	width: 100%;
   	height: 50px;
+  	margin: 0 auto;
   }
 .header-box{
-	width: 90%;
+	width: 100%;
 	height: 50px;
 	margin: 0 auto;
 }
@@ -496,7 +497,7 @@ footer{
 	margin: 20px 0;
 }
 #main-visual{
-	width: 90%;
+	width: 100%;
 	background-image: url("image/code.png");
 	margin: 0 auto;
 }
@@ -513,12 +514,12 @@ footer{
 	font-size: 18px;
 }
 #Portfolio{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .pf{
 	margin: 0 auto;
-	width: 90%;
+	width: 100%;
 }
 .pf-h{
 	font-size: 32px;
@@ -565,37 +566,38 @@ footer{
 }
 /* feature */
 #Feature{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .ft{
-	width: 90%;
+	width: 100%;
 }
 .ft-st{
-	width: 980px;
+	width: 100%;
 	margin: 30px auto 90px;
 }
 .ft-st1{
 	float: none;
-	margin-right: 0;
 	margin-bottom: 10px;
+	margin: 0 auto;
 }
 .ft-st2{
 	float: none;
-	margin-right: 0;
 	margin-bottom: 10px;
+	margin: 0 auto;
 }
 .ft-st3{
 	float: none;
-	margin-bottom: 90px
+	margin-bottom: 90px;
+	margin: 0 auto;
 }
 /* profile */
 #Profile{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .prf{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 .prf-other{
@@ -624,6 +626,13 @@ footer{
 .myname-p{
 	margin-top: 5px;
 }
+.mail{
+	text-align: center;
+}
+.tel{
+	text-align: center;
+
+}
 /* contact */
 #Contact{
 	width: 100%;
@@ -638,15 +647,18 @@ footer{
 	width: 100%;
 }
 .m-t{
-	float: left;
+	float: none;
 	width: 400px;
-}
-.m-t-box{
-	text-align: center;
-	width: 130px;
 	margin: 0 auto;
 }
+.m-t-box{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
 .mail{
+	float: none;
 	font-size: 20px;
 	margin-bottom: 5px;
 }
@@ -655,6 +667,7 @@ footer{
 	text-decoration: underline;
 }
 .tel{
+	float: none;
 	font-size: 20px;
 	margin-top: 20px;
 	margin-bottom: 5px;
@@ -665,12 +678,13 @@ footer{
 }
 .sns{
 	float: none;
-	width: 400px;
+	width: 100%;
+	margin: 0 auto;
 }
 .sns-box{
+	margin: 0 auto;
 	text-align: center;
 	width: 100%;
-	padding: 0 auto;
 }
 .sns-h{
 	font-size:20px;
@@ -679,4 +693,7 @@ footer{
 .sns-i{
 	margin:0 auto;
 }
+footer{
+	width: 100%;
+	margin: 0 auto;
 }
