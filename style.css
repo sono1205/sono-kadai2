@@ -67,6 +67,7 @@ header{
 	width: 100%;
 	text-align: center;
 	background-color: #ECEFF1;
+	padding-bottom: 90px;
 }
 .pf{
 	margin: 0 auto;
@@ -266,21 +267,25 @@ p.ft-st-p{
 	margin-top: 30px;
 	font-size: 20px;
 	color: #000000;
+	text-align: left;
 }
 .myname-p{
 	margin-top: 5px;
 	font-size: 16px;
 	color: #000000;
+	text-align: left;
 }
 .myskills{
 	margin-top: 20px;
 	font-size: 20px;
 	color: #000000;
+	text-align: left;
 }
 .myskills-p{
 	margin-top: 5px;
 	font-size: 16px;
 	color: #000000;
+	text-align: left;
 }
 
 /* contact */
@@ -348,8 +353,7 @@ p.ft-st-p{
 }
 .sns-box{
 	text-align: left;
-	width: 190px;
-	padding: 0 auto;
+	width: 200px;
 }
 .sns-h{
 	font-size:20px;
@@ -387,12 +391,12 @@ footer{
 
 @media screen and (max-width:767px) {
  header{
-  	width: 100%;
+  	width: 90%;
   	height: 50px;
   	margin: 0 auto;
   }
 .header-box{
-	width: 100%;
+	width: 90%;
 	height: 50px;
 	margin: 0 auto;
 }
@@ -497,13 +501,13 @@ footer{
 	margin: 20px 0;
 }
 #main-visual{
-	width: 100%;
+	width: 90%;
 	background-image: url("image/code.png");
 	margin: 0 auto;
 }
 .mv-txt{
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 }
 .mvt-1{
 	padding-top: 200px;
@@ -514,12 +518,12 @@ footer{
 	font-size: 18px;
 }
 #Portfolio{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .pf{
 	margin: 0 auto;
-	width: 100%;
+	width: 90%;
 }
 .pf-h{
 	font-size: 32px;
@@ -566,14 +570,14 @@ footer{
 }
 /* feature */
 #Feature{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .ft{
-	width: 100%;
+	width: 90%;
 }
 .ft-st{
-	width: 100%;
+	width: 90%;
 	margin: 30px auto 90px;
 }
 .ft-st1{
@@ -593,21 +597,21 @@ footer{
 }
 /* profile */
 #Profile{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .prf{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .prf-other{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	padding: 30px 0 90px;
 }
 .my-img{
 	float: none;
-	width: 100%;
+	width: 90%;
 	height: 250px;
 	margin: 0 auto;
 }
@@ -617,14 +621,22 @@ footer{
 }
 .prf-n&s{
 	float: none;
-	width: 100%;
+	width: 90%;
 	height: auto;
 }
 .myname{
 	margin-top: 20px;
+	text-align: center;
 }
 .myname-p{
 	margin-top: 5px;
+	text-align: center;
+}
+.myskills{
+	text-align: center;
+}
+.myskills-p{
+	text-align: center;
 }
 .mail{
 	text-align: center;
@@ -635,7 +647,7 @@ footer{
 }
 /* contact */
 #Contact{
-	width: 100%;
+	width: 90%;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -644,7 +656,7 @@ footer{
 	width: 90%;
 }
 .m-t-sns{
-	width: 100%;
+	width: 90%;
 }
 .m-t{
 	float: none;
@@ -652,7 +664,7 @@ footer{
 	margin: 0 auto;
 }
 .m-t-box{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 20px;
@@ -678,13 +690,13 @@ footer{
 }
 .sns{
 	float: none;
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
 .sns-box{
 	margin: 0 auto;
 	text-align: center;
-	width: 100%;
+	width: 90%;
 }
 .sns-h{
 	font-size:20px;
@@ -694,6 +706,6 @@ footer{
 	margin:0 auto;
 }
 footer{
-	width: 100%;
+	width: 90%;
 	margin: 0 auto;
 }
