@@ -391,7 +391,6 @@ footer{
 
 @media screen and (max-width:767px) {
  header{
-  	width: 90%;
   	height: 50px;
   	margin: 0 auto;
   }
@@ -501,7 +500,6 @@ footer{
 	margin: 20px 0;
 }
 #main-visual{
-	width: 90%;
 	background-image: url("image/code.png");
 	margin: 0 auto;
 }
@@ -518,7 +516,6 @@ footer{
 	font-size: 18px;
 }
 #Portfolio{
-	width: 90%;
 	margin: 0 auto;
 }
 .pf{
@@ -570,7 +567,6 @@ footer{
 }
 /* feature */
 #Feature{
-	width: 90%;
 	margin: 0 auto;
 }
 .ft{
@@ -597,7 +593,6 @@ footer{
 }
 /* profile */
 #Profile{
-	width: 90%;
 	margin: 0 auto;
 }
 .prf{
@@ -647,7 +642,6 @@ footer{
 }
 /* contact */
 #Contact{
-	width: 90%;
 	text-align: center;
 	margin: 0 auto;
 }
@@ -706,6 +700,5 @@ footer{
 	margin:0 auto;
 }
 footer{
-	width: 90%;
 	margin: 0 auto;
 }
